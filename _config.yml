@@ -1,6 +1,50 @@
-theme: minima
+title: MarcellOmics
+author:
+  name: "Marcello Beltrami"
+  github: "marcellobeltrami"
+  avatar: ""
 
-title: MarcellOmics 
-author: Marcello Beltrami
 description: A blog about bioinformatics and related technologies.
 
+# ========================================
+# 🎨 THEME & VISUALS
+# ========================================
+theme: minima
+show_excerpts: true
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter_opts:
+    css_class: "highlight"
+
+# ========================================
+# 🔌 PLUGINS
+# ========================================
+plugins:
+  - jekyll-feed # RSS feed for blog posts
+  - jekyll-seo-tag # Adds meta tags for SEO
+  - jekyll-sitemap # Auto-generates sitemap.xml
+  - jekyll-paginate # Enables pagination
+  - jekyll-archives # Generates archive pages
+  - jekyll-mentions # GitHub-style @mentions
+
+paginate: 5
+paginate_path: "/page:num/"
+
+# ========================================
+# 🧭 PERMALINKS & STRUCTURE
+# ========================================
+permalink: /:categories/:year/:month/:day/:title/
+collections:
+  posts:
+    output: true
+    permalink: /blog/:year/:month/:day/:title/
+
+# ========================================
+# 🖼️ SOCIAL & SEO
+# ========================================
+social_links:
+  github: https://github.com/marcellobeltrami
+  linkedin: https://linkedin.com/in/marcellobeltrami
+  rss: /feed.xml
