@@ -1,9 +1,6 @@
 ---
-title: About me
 description: This is my blog dedicated to everything bioinformatics and tech related. Stay tuned for my random rants.
 ---
-
-# Welcome
 
 ## About Me
 My name is Marcello and I am a passionate bioinformatician working at the University of York. On the daily, I explore the genomic landscape of bladder cancer. Outside work I enjoy parkour, climbing, gaming and low-level coding.

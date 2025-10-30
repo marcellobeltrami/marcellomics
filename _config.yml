@@ -10,6 +10,7 @@ description: A blog about bioinformatics and related technologies.
 # 🎨 THEME & VISUALS
 # ========================================
 theme: minima
+dark_mode: true
 show_excerpts: true
 markdown: kramdown
 highlighter: rouge
