@@ -1,8 +1,6 @@
 title: MarcellOmics
-author:
-  name: "Marcello Beltrami"
-  github: "marcellobeltrami"
-  avatar: ""
+author: "Marcello Beltrami"
+github: "https://github.com/marcellobeltrami"
 
 description: A blog about bioinformatics and related technologies.
 
@@ -19,6 +17,9 @@ kramdown:
   syntax_highlighter_opts:
     css_class: "highlight"
 
+remote_theme: jekyll/minima
+minima:
+  skin: dark
 # ========================================
 # 🔌 PLUGINS
 # ========================================
@@ -29,6 +30,7 @@ plugins:
   - jekyll-paginate # Enables pagination
   - jekyll-archives # Generates archive pages
   - jekyll-mentions # GitHub-style @mentions
+  - jekyll-remote-theme
 
 paginate: 5
 paginate_path: "/page:num/"
