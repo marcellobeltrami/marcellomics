@@ -1,8 +1,7 @@
 ---
-title: template
+title: Enhancing Reproducibility and Scalability in Scientific Research through Open-Source Workflow Management System
 published: true
 ---
-## Enhancing Reproducibility and Scalability in Scientific Research through Open-Source Workflow Management System
 
 ### Introduction to bioinformatics
 
@@ -18,7 +17,7 @@ published: true
     - **Track diseases:** Monitor and predict the spread of viruses and bacteria.
     - **Develop medicines:** Identify how drugs interact with cells and genes.
     - **Study evolution:** Compare DNA across species to explore ancestry and biodiversity.
-    - 
+
 - **Outcome:**
     - Transforms biological data into **knowledge** that improves healthcare, environmental protection, and our understanding of life itself.
 
