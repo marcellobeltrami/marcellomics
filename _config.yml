@@ -1,52 +1,30 @@
-title: MarcellOmics
-author: "Marcello Beltrami"
-github: "https://github.com/marcellobeltrami"
+title: marcellomics
+description: "Where dev practices meet bionformatics."
+author:
+  name: "Marcello Beltrami"
+  url: "https://ashishchaudhary.in/hacker-blog"
 
-description: A blog about bioinformatics and related technologies.
+baseurl: /
 
-# ========================================
-# 🎨 THEME & VISUALS
-# ========================================
-theme: minima
-dark_mode: true
-show_excerpts: true
-markdown: kramdown
-highlighter: rouge
-kramdown:
-  input: GFM
-  syntax_highlighter_opts:
-    css_class: "highlight"
+source: .
+destination: ./_site
+permalink: /:title
+paginate: 3
+paginate_path: /page/:num/
 
-minima:
-  skin: dark
-# ========================================
-# 🔌 PLUGINS
-# ========================================
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+future: true
 plugins:
-  - jekyll-feed # RSS feed for blog posts
-  - jekyll-seo-tag # Adds meta tags for SEO
-  - jekyll-sitemap # Auto-generates sitemap.xml
-  - jekyll-paginate # Enables pagination
-  - jekyll-archives # Generates archive pages
-  - jekyll-mentions # GitHub-style @mentions
-  - jekyll-remote-theme
+  - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-sitemap
 
-paginate: 5
-paginate_path: "/page:num/"
-
-# ========================================
-# 🧭 PERMALINKS & STRUCTURE
-# ========================================
-permalink: /:categories/:year/:month/:day/:title/
-collections:
-  posts:
-    output: true
-    permalink: /blog/:year/:month/:day/:title/
-
-# ========================================
-# 🖼️ SOCIAL & SEO
-# ========================================
-social_links:
-  github: https://github.com/marcellobeltrami
-  linkedin: https://linkedin.com/in/marcellobeltrami
-  rss: /feed.xml
+# Custom variables
+owner: "MarcelloBeltrami"
+year: "2025"
