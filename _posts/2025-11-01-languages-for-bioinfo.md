@@ -12,7 +12,7 @@ Bioinformatics is a discipline combining the use of computational techniques to 
 
 For many, python is the introductory language to programming in general. Although this has been said countless times, python reads like English, making grasping computational easier than other languages. This creates a vast community of passionate developers which create libraries for pretty much any purpose.
 
-![Alt text](https://github.com/marcellobeltrami/marcellomic/_post/post-assets/2025-11-01/TimeOfExecutions.png "Time of execution principles")
+![Alt text](https://github.com/marcellobeltrami/marcellomics/blob/main/_posts/post-assets/2025-11-01/TimeOfExecutions.png "Time of execution principles")
 
 ## [](#header-2) Performance and package management
 
@@ -20,7 +20,7 @@ The presence of the pip package manager, combined with environment such Anaconda
 
 ## [](#header-2) Why some software developers dislike python
 
-![Alt text](https://github.com/marcellobeltrami/marcellomic/_post/post-assets/2025-11-01/Rust_vs_python.svg "Rust vs Python")
+![Alt text](https://github.com/marcellobeltrami/marcellomics/blob/main/_posts/post-assets/2025-11-01/Rust_vs_python.svg "Rust vs Python")
 
 
 Some developers have previously argued that, although Python’s readability is unparallel, using it to develop data processing tools is an overall poor choice. As previously covered, once the ability of a developer is removed from the equation, Python is really slow when compared to other available languages. Additionally, the low barrier of entry acts as a double edge sword, as this results in programmers with poor knowledge of CompSci concepts such as algorithms, data structures and hardware knowledge to have access to programming, resulting in suboptimal software implementations. Granted, this is not a rant against those programmer (I am one of them LOL), but it is something that should be acknowledged when choosing how to tackle a problem, further supporting the thesis that bioinformatics is a widely collaborative field, and that gatekeeping can only harm research. At the end of the day, language is just a tool to interface yourself with a computer. In fact, Python if often better reserved as a glue language, where the heavy backend computations is carried by libraries written in C, C++ or dare I say Rust.
