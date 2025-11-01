@@ -1,6 +1,6 @@
 ---
 title: template
-published: false
+published: true
 ---
 ## Enhancing Reproducibility and Scalability in Scientific Research through Open-Source Workflow Management System
 
@@ -28,7 +28,7 @@ The study of genomics involves analyzing sequencing data to infer impactful biol
 
 We explore core components necessary for implementing reproducible and scalable bioinformatics projects. Popular open-source WfMSs include **Nextflow** and **Snakemake**, which represent analyses as workflows where steps are wrapped into processes connected by data dependencies. These systems support core features critical for efficiency, such as automatic **parallelization** and **portability** across diverse infrastructures, including High-Performance Computing (HPC) clusters and cloud computing. Nextflow, currently experiencing the highest growth in usage among WfMSs, is the main driver behind their adoption.
 
-To ensure analyses are **independent of the execution machine**, tool distribution must involve accurate tracking of dependencies and software environment versions. This challenge is addressed through **containerization software** such as **Docker and Kubernetes**, which allow the creation of encapsulated computer environments defined as images. This approach is the most comprehensive solution for dependency control, resulting in consistent execution across various operating systems (Linux, Windows, MacOS).
+To ensure analyses are **independent of the execution machine**, tool distribution must involve accurate tracking of dependencies and software environment versions. This challenge is addressed through **containerization software** such as **Docker and Kubernetes**, which allow the creation of encapsulated computer environments defined as images. This approach is the most comprehensive solution for dependencyi control, resulting in consistent execution across various operating systems (Linux, Windows, MacOS).
 
 ![Alt text](https://raw.githubusercontent.com/marcellobeltrami/marcellomics/main/_posts/post-assets/2025-11-02/docker.png "Containerzation")
 
