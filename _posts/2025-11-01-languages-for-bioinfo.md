@@ -1,5 +1,5 @@
 ---
-title: Python for bioinformatics
+title: 🐍-Programming for bioinformatics
 published: true
 ---
 

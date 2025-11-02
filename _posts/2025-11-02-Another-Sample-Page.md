@@ -1,5 +1,5 @@
 ---
-title: Genomics and Reproducibility
+title: 🧬-Genomics and Reproducibility
 published: true
 ---
 
