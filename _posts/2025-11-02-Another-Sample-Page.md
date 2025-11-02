@@ -1,28 +1,9 @@
 ---
-title: template
+title: Genomics and Reproducibility
 published: true
 ---
-## Enhancing Reproducibility and Scalability in Scientific Research through Open-Source Workflow Management System
 
-### Introduction to bioinformatics
-
-- **Definition:**
-    - Bioinformatics is the use of computers, mathematics, and statistics to analyze and understand biological data — especially genetic information (like DNA).
-    - It combines **biology**, **computer science**, and **data analysis** to make sense of complex biological information.
-- **Why It’s Needed:**
-    - Modern technology produces huge amounts of genetic data (DNA sequences, protein structures, etc.).
-    - Humans can’t manually analyze all this data — powerful computers and algorithms are essential.
-    - It is significantly more cost-effective, as results guide wet-lab experimentation, significanlty decreasing the cost of reagents used. *Ie. less trial and error, more targeted analysis.*
-- **Main Goals and Applications:**
-    - **Decode genes:** Understand how specific genes influence traits, health, and disease. This can be achieved with multi-omics data integration at multiple levels to more precisely infer observable effects by having many “layers” supporting a biologically significant finding.
-    - **Track diseases:** Monitor and predict the spread of viruses and bacteria.
-    - **Develop medicines:** Identify how drugs interact with cells and genes.
-    - **Study evolution:** Compare DNA across species to explore ancestry and biodiversity.
-    - 
-- **Outcome:**
-    - Transforms biological data into **knowledge** that improves healthcare, environmental protection, and our understanding of life itself.
-
-### Genomics and Reproducibility
+### Introduction
 
 The study of genomics involves analyzing sequencing data to infer impactful biological findings, making **replicability and transparency** regarding how results are obtained paramount. Advancements in large-scale molecular biology methods have driven an **unprecedented increase in data generation**, pushing computational capacities to their limits and highlighting a growing need for robust and **scalable data analyses**. Consequently, **Workflow Management Systems (WfMSs)** are the recommended solution for dealing with high-throughput data analysis pipelines.
 
